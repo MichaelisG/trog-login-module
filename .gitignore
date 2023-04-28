@@ -42,4 +42,9 @@ testem.log
 Thumbs.db
 
 # PII
-/src/env.js
+/src/environments/env.ts
+
+# Firebase
+.firebase
+*-debug.log
+.runtimeconfig.json

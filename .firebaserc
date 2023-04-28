@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "troglodytes-2f25a": {
+      "hosting": {
+        "trog-login-module": [
+          "troglodytes-2f25a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "troglodytes-2f25a"
+  }
+}

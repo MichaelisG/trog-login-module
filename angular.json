@@ -96,6 +96,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "trog-login-module:build:production",
+            "firebaseProject": "troglodytes-2f25a",
+            "firebaseHostingSite": "troglodytes-2f25a"
+          }
         }
       }
     }
